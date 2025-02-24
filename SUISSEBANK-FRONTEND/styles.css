@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: blue;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container{
+    background-color: rgb(53, 66, 199);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 80px;
+    width: fit-content;
+}
+
+.inputs{
+    text-align: center;
+    display: grid;
+    
+}
+
+.selectors{
+    text-align: center;
+}
+
+#pac{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
