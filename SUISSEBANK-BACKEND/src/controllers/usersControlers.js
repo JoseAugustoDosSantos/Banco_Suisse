@@ -1,7 +1,12 @@
 import mongoose from "mongoose";
 import users from "../models/User.js";
+import swagger from '../../swagger.json.js'
 
 class usersControllers{
+
+    static getSwagger = (req, res)=>{
+        res.status(200).json(swagger)
+    }
     
     static listUsers = (req, res)=>{
         users.find()
